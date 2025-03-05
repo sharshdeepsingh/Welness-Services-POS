@@ -1,46 +1,46 @@
-- # Point of Sale (POS) for Services
+click :  [link](https://wellneshub.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Services POS is a simple Point of Sale (POS) website built using React. This project is focused only on the frontend, meaning there's no authentication, authorization, or backend integration. It’s designed to provide a basic POS system with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-- # Point of Sale (POS) for Services
-
-A responsive and intuitive POS system for selling services like fitness classes, therapy sessions, and workshops. Built using **React** and **Tailwind CSS**.
-
-## Features
-
-- **Service Selection**: Browse services with filtering and search functionality.
-- **Cart Management**: Add, edit, and remove services in the cart.
-- **Customer Details**: Optionally capture customer information during checkout.
-- **Mocked Checkout Flow**: Simulate payments for transactions.
-- **Receipt Generation**: Display a detailed receipt with transaction details.
-- **Analytics Dashboard**:
-  - Track total revenue and services sold.
-  - Identify hot-selling services.
-- **Internationalization Support**: Supports English and Hindi.
-
----
-
-## Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-Navigate to the project directory:
-cd pos-for-services
+Features
+Display products with prices
+Add items to the cart
+Update or remove items from the cart
+Automatically calculate the total amount
+Simple and responsive UI for easy navigation
 
 
+Tech Stack
+React (for UI components)
+CSS / Tailwind CSS / Bootstrap (for styling)
 
-Install dependencies:
+
+How to Run the Project
+Prerequisites
+Make sure you have Node.js installed on your computer.
+
+Clone the Repository
+
+
+git clone https://github.com/yourusername/web-services-pos.git
+cd web-services-pos
+Install Dependencies
+
+
 npm install
+Start the Development Server
 
 
-Start the development server:
 npm start
+Open your browser and visit:
+http://localhost:3000
+
+You can deploy the project on Vercel, Netlify, or GitHub Pages.
+
+Deploy to Vercel
+npm run build
+vercel deploy
 
 
-The app will be available at http://localhost:3000.
+Deploy to Netlify
+netlify deploy
